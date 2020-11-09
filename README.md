@@ -1,4 +1,4 @@
-# divi-acf-fields
+# Divi ACF Plugins for oEmbed and Gallery Field Types
 Shortcodes for displaying various ACF fields inside Divi's Code Module
 
 ## How to use the oEmbed ACF type
