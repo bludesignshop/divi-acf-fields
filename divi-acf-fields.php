@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Divi ACF Gallery and oEmbed ACF fields 
- * Plugin URI: https://divi.tech
+ * Plugin URI: https://github.com/eduard-ungureanu/divi-acf-fields
  * Description: Allows the usage of ACF Gallery and oEmebed fields type to be display inside Divi's Code Module
  * Version: 1.0.0
  * Author: Eduard Ungureanu
