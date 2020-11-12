@@ -24,7 +24,7 @@ function dt_show_video($atts = '') {
 	$custom_fields = get_post_custom($post->ID);
 	$video_custom_field = $custom_fields[$wporg_atts['acf_id']];
     
-	foreach ( $video_custom_field as $key => $value ) {
+	foreach ( (array) $video_custom_field as $key => $value ) {
 		$video_url = explode('?v=', $value);
 		$video_id = $video_url[1];
   	}
