@@ -33,6 +33,24 @@ function dt_show_video($atts = '') {
 }
 
  /*
+ * Usage [dt-acf-iframe acf_id='my-iframe']
+ * - my-iframe - is the ACF oEmbed field's name;
+ */
+
+add_shortcode('dt-acf-iframe', 'dt_acf_iframe');
+function dt_acf_iframe($atts = '') {
+	global $post;
+	$iframe_atts = shortcode_atts([
+		'acf_id' => '',
+  	], 
+  	$atts);
+
+	$custom_URL = get_field($iframe_atts['acf_id']);
+    
+	return '<iframe class="dt-acf-custom-iframe" width="100%" height="auto" src="'.$custom_URL.'"></iframe>';
+}
+
+ /*
  * Usage [dt-acf-gallery acf_id='my_gallery']
  * - my_gallery - is the ACF Gallery field's name;
  */

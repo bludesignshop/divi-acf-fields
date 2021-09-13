@@ -4,6 +4,9 @@ Shortcodes for displaying various ACF fields inside Divi's Code Module
 ## How to use the oEmbed ACF type
 In any Code module you can use `[dt-yt-acf-video acf_id='my-video']` where the **my-video** parameter is the ACF oEmbed filed's name
 
+## How to use the URL ACF type
+In any Code module or Text Module you can use `[dt-acf-iframe acf_id='my-iframe-url']` where the **my-iframe-url** parameter is the ACF URL filed's name
+
 ## How to use the Gallery ACF type
 1. Create a Gallery ACF filed
 2. Set the Return Format to be **Image Array**
